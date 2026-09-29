@@ -48,6 +48,7 @@ P = dict(
     stop_max=0.033,
     rb_min=1.5,
     objetivo=0.04,          # +4%: límite inferior de la banda, conservador como en el backtest v2
+    rb_objetivo_real=False, # False: R/B contra +5% (como la v3); True: R/B contra el objetivo simulado
     volumen_min_usd=20e6,
     max_entradas_dia=2,
     coste_ida_vuelta=0.005, # comisión + cambio de divisa, en % del importe
@@ -164,7 +165,8 @@ def evaluar(t, d, i, idx, fechas_res, stop_min):
         return base, "F4 stop < mínimo"
     if dist > P["stop_max"]:
         return base, "F4 stop > 3,3%"
-    if 0.05 / dist < P["rb_min"]:
+    rb_ref = P["objetivo"] if P["rb_objetivo_real"] else 0.05
+    if rb_ref / dist < P["rb_min"]:
         return base, "F4 R/B < 1,5"
     return base, None
 
