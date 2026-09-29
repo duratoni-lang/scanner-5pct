@@ -1,0 +1,116 @@
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BK"}}}
+$BK: possibly delisted; no timezone found
+
+1 Failed download:
+['BK']: possibly delisted; no timezone found
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BK"}}}
+$BK: possibly delisted; no timezone found
+
+1 Failed download:
+['BK']: possibly delisted; no timezone found
+$BK: possibly delisted; no timezone found
+
+1 Failed download:
+['BK']: possibly delisted; no timezone found
+BK: No earnings dates found, symbol may be delisted
+BK: No earnings dates found, symbol may be delisted
+BK: No earnings dates found, symbol may be delisted
+Descargando 80 valores...
+  sin datos: BK
+  SNX: 50 fechas de resultados
+  GBX: 50 fechas de resultados
+  APOG: 50 fechas de resultados
+  LNN: 50 fechas de resultados
+  NKE: 50 fechas de resultados
+  MSM: 50 fechas de resultados
+  IONS: 50 fechas de resultados
+  MLI: 50 fechas de resultados
+  PSMT: 50 fechas de resultados
+  AZZ: 49 fechas de resultados
+  LEVI: 30 fechas de resultados
+  DAL: 50 fechas de resultados
+  JPM: 50 fechas de resultados
+  FAST: 50 fechas de resultados
+  C: 50 fechas de resultados
+  BAC: 50 fechas de resultados
+  WFC: 50 fechas de resultados
+  EPAC: 50 fechas de resultados
+  GS: 50 fechas de resultados
+  WDFC: 50 fechas de resultados
+  CTAS: 50 fechas de resultados
+  JNJ: 50 fechas de resultados
+  STT: 50 fechas de resultados
+  MTB: 50 fechas de resultados
+  USB: 50 fechas de resultados
+  GE: 50 fechas de resultados
+  SCHW: 50 fechas de resultados
+  GEV: 11 fechas de resultados
+  KO: 50 fechas de resultados
+  UNP: 50 fechas de resultados
+  RTX: 50 fechas de resultados
+  V: 50 fechas de resultados
+  HON: 50 fechas de resultados
+  MIDD: 50 fechas de resultados
+  PENG: 38 fechas de resultados
+  PGR: 50 fechas de resultados
+  BK: 0 fechas de resultados
+  TSM: 50 fechas de resultados
+  AAPL: 50 fechas de resultados
+  MSFT: 50 fechas de resultados
+  NVDA: 50 fechas de resultados
+  AVGO: 50 fechas de resultados
+  ORCL: 50 fechas de resultados
+  CRM: 50 fechas de resultados
+  ADBE: 50 fechas de resultados
+  AMD: 50 fechas de resultados
+  CSCO: 50 fechas de resultados
+  TXN: 50 fechas de resultados
+  AMZN: 50 fechas de resultados
+  GOOGL: 50 fechas de resultados
+  META: 50 fechas de resultados
+  NFLX: 50 fechas de resultados
+  UNH: 50 fechas de resultados
+  PFE: 50 fechas de resultados
+  MRK: 50 fechas de resultados
+  ABBV: 50 fechas de resultados
+  LLY: 50 fechas de resultados
+  TMO: 50 fechas de resultados
+  ABT: 50 fechas de resultados
+  PG: 50 fechas de resultados
+  PEP: 50 fechas de resultados
+  WMT: 50 fechas de resultados
+  COST: 50 fechas de resultados
+  MCD: 50 fechas de resultados
+  HD: 50 fechas de resultados
+  LOW: 50 fechas de resultados
+  TGT: 50 fechas de resultados
+  CAT: 50 fechas de resultados
+  DE: 50 fechas de resultados
+  LMT: 50 fechas de resultados
+  UPS: 50 fechas de resultados
+  FDX: 50 fechas de resultados
+  XOM: 50 fechas de resultados
+  CVX: 50 fechas de resultados
+  AXP: 50 fechas de resultados
+  MS: 50 fechas de resultados
+  BLK: 28 fechas de resultados
+  NEE: 50 fechas de resultados
+  DUK: 50 fechas de resultados
+  LIN: 50 fechas de resultados
+                          0                     0
+variante                 v3  v2 (sin stop mínimo)
+operaciones              58                    71
+acierto            0.465517              0.366197
+ganancia_media     0.023556               0.02685
+perdida_media     -0.020822             -0.016171
+esperanza_bruta   -0.000163             -0.000417
+esperanza_neta    -0.005163             -0.005417
+profit_factor       0.98531               0.95936
+max_drawdown_suma -0.391342             -0.484048
+salidas_objetivo         11                    12
+salidas_stop             26                    41
+salidas_tiempo           21                    18
+acierto_5d_alto        0.25                   0.0
+acierto_5d_normal  0.481481              0.382353
+
+Guardado en backtest_v3_resultados.xlsx
