@@ -1,0 +1,46 @@
+name: Escaner v4 diario
+
+on:
+  schedule:
+    - cron: "35 22 * * 1-5"   # 00:35 en Madrid (horario de verano), tras el cierre de EE. UU.
+  workflow_dispatch:
+    inputs:
+      forzar:
+        description: "Ignorar el régimen VIX (solo pruebas)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: escaner-v4
+  cancel-in-progress: false
+
+jobs:
+  escanear:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install yfinance pandas lxml requests
+      - name: Ejecutar escáner
+        run: python escaner_v4.py ${{ inputs.forzar && '--forzar' || '' }}
+      - name: Avisar por issue
+        if: hashFiles('aviso.md') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create --title "Escáner v4 — $(date -u +%F)" --body-file aviso.md
+          rm aviso.md
+      - name: Guardar registro
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add registro_v4.csv regimen_log.csv
+          git commit -m "Escáner v4: registro $(date -u +%F) [skip ci]" || echo "sin cambios"
+          git pull --rebase -q || true
+          git push
