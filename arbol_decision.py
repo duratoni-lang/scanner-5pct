@@ -105,7 +105,16 @@ def construir(precios, eventos, sectores):
     spx_sma50, spx_sma200 = spx_c.rolling(50).mean(), spx_c.rolling(200).mean()
     filas = []
     for t, ev in eventos.items():
-        d = precios[t]
+        try:
+            filas.extend(_eventos_ticker(t, ev, precios[t], sectores, spx_c, vix, spx_sma50, spx_sma200))
+        except Exception as ex:
+            print(f"  omitido {t}: {ex}")
+    return pd.DataFrame(filas)
+
+
+def _eventos_ticker(t, ev, d, sectores, spx_c, vix, spx_sma50, spx_sma200):
+    filas = []
+    if True:
         c, h, l, v, o = d.Close, d.High, d.Low, d.Volume, d.Open
         sma20, sma50, sma200 = c.rolling(20).mean(), c.rolling(50).mean(), c.rolling(200).mean()
         tr = pd.concat([h - l, (h - c.shift()).abs(), (l - c.shift()).abs()], axis=1).max(axis=1)
@@ -130,6 +139,8 @@ def construir(precios, eventos, sectores):
             if not (INICIO_EVENTOS <= str(e.fecha.date()) <= FIN_EVENTOS) or e.conocido is None:
                 continue
             antes = idx[idx < e.fecha]
+            if len(antes) == 0:
+                continue
             p_last = idx.get_loc(antes[-1])
             s = p_last - SESIONES_ANTES
             if s < 260 or s + 1 > p_last:
@@ -172,7 +183,7 @@ def construir(precios, eventos, sectores):
                 ret_antes=c.iloc[p_last] / ent - 1,
                 ret_atraviesa=c.loc[e.conocido] / ent - 1,
             ))
-    return pd.DataFrame(filas)
+    return filas
 
 
 VARIABLES = ["r5", "r10", "r20", "r60", "r250", "rs20", "rs60", "dist_sma20", "dist_sma50", "dist_sma200",
