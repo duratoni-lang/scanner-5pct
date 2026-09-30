@@ -3,6 +3,9 @@ name: Escaner v4 diario
 on:
   schedule:
     - cron: "35 22 * * 1-5"   # 00:35 en Madrid (horario de verano), tras el cierre de EE. UU.
+  push:
+    branches: [backtest-v3]
+    paths: [escaner_v4.py, .github/workflows/escaner.yml]
   workflow_dispatch:
     inputs:
       forzar:
@@ -27,16 +30,31 @@ jobs:
         with:
           python-version: "3.11"
       - run: pip install yfinance pandas lxml requests
+      - name: Prueba tras cambios (fuerza la búsqueda, no guarda registro)
+        if: github.event_name == 'push'
+        run: |
+          python escaner_v4.py --forzar 2>&1 | tee prueba_escaner_log.txt
+          [ -f registro_v4.csv ] && cp registro_v4.csv prueba_registro.csv || true
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git checkout -- registro_v4.csv regimen_log.csv 2>/dev/null || rm -f registro_v4.csv regimen_log.csv
+          rm -f aviso.md
+          git add -f prueba_escaner_log.txt prueba_registro.csv 2>/dev/null || git add -f prueba_escaner_log.txt
+          git commit -m "Prueba del escáner v4 [skip ci]" || true
+          git pull --rebase -q || true
+          git push
       - name: Ejecutar escáner
+        if: github.event_name != 'push'
         run: python escaner_v4.py ${{ inputs.forzar && '--forzar' || '' }}
       - name: Avisar por issue
-        if: hashFiles('aviso.md') != ''
+        if: github.event_name != 'push' && hashFiles('aviso.md') != ''
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           gh issue create --title "Escáner v4 — $(date -u +%F)" --body-file aviso.md
           rm aviso.md
       - name: Guardar registro
+        if: github.event_name != 'push'
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
