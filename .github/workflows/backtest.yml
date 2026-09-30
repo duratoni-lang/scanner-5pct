@@ -8,6 +8,7 @@ on:
       - backtest_grid.py
       - backtest_pre.py
       - backtest_riesgo.py
+      - arbol_decision.py
       - watchlist.csv
       - watchlist_mid.csv
       - .github/workflows/backtest.yml
@@ -31,16 +32,16 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - run: pip install yfinance pandas openpyxl lxml
+      - run: pip install yfinance pandas openpyxl lxml scikit-learn matplotlib requests
       - name: Ejecutar backtest
         continue-on-error: true
         run: |
-          python backtest_riesgo.py 2>&1 | tee backtest_riesgo_log.txt
+          python arbol_decision.py 2>&1 | tee arbol_log.txt
       - name: Guardar resultados en la rama
         if: always()
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add -f backtest_riesgo_log.txt backtest_riesgo_resultados.xlsx 2>/dev/null || git add -f backtest_riesgo_log.txt
+          git add -f arbol_log.txt arbol_resultados.xlsx arbol_antes.png arbol_atraviesa.png eventos_dataset.csv.gz 2>/dev/null || git add -f arbol_log.txt
           git commit -m "Resultados backtest v3 [skip ci]" || echo "sin cambios"
           git push
