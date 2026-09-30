@@ -1,0 +1,50 @@
+$FDXF: Data doesn't exist for startDate = 1420088400, endDate = 1771131600
+
+1 Failed download:
+['FDXF']: Data doesn't exist for startDate = 1420088400, endDate = 1771131600
+$HONA: Data doesn't exist for startDate = 1420088400, endDate = 1771131600
+
+1 Failed download:
+['HONA']: Data doesn't exist for startDate = 1420088400, endDate = 1771131600
+SPY: No earnings dates found, symbol may be delisted
+SPY: No earnings dates found, symbol may be delisted
+SPY: No earnings dates found, symbol may be delisted
+  universo: 903 valores
+  precios 100/906
+  precios 200/906
+  precios 300/906
+  precios 400/906
+  precios 500/906
+  precios 600/906
+  precios 700/906
+  precios 800/906
+  precios 900/906
+  precios 906/906
+  resultados 0/904
+  resultados 100/904
+  resultados 200/904
+  resultados 300/904
+  resultados 400/904
+  resultados 500/904
+  resultados 600/904
+  resultados 700/904
+  resultados 800/904
+  resultados 900/904
+                                estrategia        filtro  coste  operaciones  ops_por_anio  acierto  media_bruta  peor_operacion  rent_anual_media  rent_2016_22  rent_2023_25  anios_negativos  peor_anio  max_drawdown   a2016   a2017   a2018   a2019   a2020   a2021   a2022   a2023   a2024   a2025
+0                 A VIX+evento, sale antes    sin filtro  0.005          317          31.7   0.5836       0.0151         -0.2097            0.0803        0.1022        0.0294                0     0.0000       -0.1816  0.1578  0.0000  0.1058  0.0404  0.1035  0.1757  0.1318  0.0154  0.0672  0.0058
+1                 A VIX+evento, sale antes    sin filtro  0.002          317          31.7   0.6120       0.0151         -0.2097            0.1041        0.1311        0.0412                0     0.0000       -0.1741  0.1713  0.0000  0.1238  0.0441  0.1433  0.2080  0.2271  0.0236  0.0717  0.0283
+2   B VIX+evento, atraviesa (medio tamaño)    sin filtro  0.005          426          42.6   0.5775       0.0247         -0.3564            0.1048        0.0933        0.1317                0     0.0000       -0.2014  0.1297  0.0000  0.2006  0.0426  0.0859  0.1422  0.0519  0.1309  0.1160  0.1480
+3   B VIX+evento, atraviesa (medio tamaño)    sin filtro  0.002          426          42.6   0.5869       0.0247         -0.3564            0.1208        0.1125        0.1402                0     0.0000       -0.1900  0.1406  0.0000  0.2126  0.0452  0.1095  0.1613  0.1179  0.1365  0.1198  0.1642
+4       C VIX+cualquier evento, sale antes    sin filtro  0.005          439          43.9   0.5991       0.0149         -0.2097            0.1090        0.1339        0.0510                1    -0.1150       -0.3248  0.1087  0.0000  0.1391  0.0332  0.5147  0.2567 -0.1150  0.0349  0.1020  0.0160
+5       C VIX+cualquier evento, sale antes    sin filtro  0.002          439          43.9   0.6333       0.0149         -0.2097            0.1420        0.1740        0.0672                1    -0.0003       -0.2918  0.1230  0.0000  0.1616  0.0377  0.6002  0.2957 -0.0003  0.0461  0.1110  0.0445
+6        D VIX sin evento (más castigadas)    sin filtro  0.005          524          52.4   0.5115       0.0135         -0.8058            0.1108        0.0623        0.2238                3    -0.2740       -0.7060  0.0644  0.0000  0.1825  0.1064 -0.0530  0.4100 -0.2740  0.4501  0.2557 -0.0345
+7        D VIX sin evento (más castigadas)    sin filtro  0.002          524          52.4   0.5324       0.0135         -0.8058            0.1501        0.1095        0.2448                2    -0.1480       -0.6775  0.0854  0.0000  0.2155  0.1154  0.0430  0.4550 -0.1480  0.4651  0.2707 -0.0015
+8                 A VIX+evento, sale antes  anti-bajista  0.005          146          14.6   0.5411       0.0110         -0.2097            0.0220        0.0248        0.0156                2    -0.2052       -0.2411  0.0408  0.0000  0.0696  0.0279  0.0647  0.1757 -0.2052  0.0115  0.0672 -0.0319
+9                 A VIX+evento, sale antes  anti-bajista  0.002          146          14.6   0.5753       0.0110         -0.2097            0.0330        0.0382        0.0208                2    -0.1932       -0.2231  0.0416  0.0000  0.0786  0.0309  0.1014  0.2080 -0.1932  0.0160  0.0717 -0.0252
+10  B VIX+evento, atraviesa (medio tamaño)  anti-bajista  0.005          189          18.9   0.5556       0.0211         -0.2659            0.0381        0.0337        0.0481                2    -0.0711       -0.0962  0.0451  0.0000  0.0284  0.0323  0.0593  0.1422 -0.0711  0.0795  0.1160 -0.0512
+11  B VIX+evento, atraviesa (medio tamaño)  anti-bajista  0.002          189          18.9   0.5608       0.0211         -0.2659            0.0451        0.0422        0.0521                2    -0.0621       -0.0921  0.0455  0.0000  0.0344  0.0345  0.0814  0.1613 -0.0621  0.0829  0.1198 -0.0463
+12      C VIX+cualquier evento, sale antes  anti-bajista  0.005          229          22.9   0.6026       0.0148         -0.2214            0.0563        0.0696        0.0253                2    -0.2177       -0.2437  0.0402  0.0000  0.0106  0.0332  0.3638  0.2567 -0.2177  0.0065  0.1020 -0.0326
+13      C VIX+cualquier evento, sale antes  anti-bajista  0.002          229          22.9   0.6419       0.0148         -0.2214            0.0735        0.0902        0.0343                2    -0.2034       -0.2317  0.0417  0.0000  0.0204  0.0377  0.4395  0.2957 -0.2034  0.0125  0.1110 -0.0206
+14       D VIX sin evento (más castigadas)  anti-bajista  0.005          280          28.0   0.5321       0.0122         -0.8058            0.0503        0.0186        0.1244                3    -0.2400       -0.6334 -0.0212  0.0000  0.1819  0.0018 -0.2400  0.4100 -0.2025  0.0801  0.2557  0.0376
+15       D VIX sin evento (más castigadas)  anti-bajista  0.002          280          28.0   0.5536       0.0122         -0.8058            0.0713        0.0434        0.1364                3    -0.1875       -0.6244 -0.0152  0.0000  0.1969  0.0078 -0.1530  0.4550 -0.1875  0.0891  0.2707  0.0496
+16                          E Mantener SPY             -  0.000            1           0.1      NaN          NaN             NaN            0.1580        0.1275        0.2293                2    -0.1818       -0.3372  0.1200  0.2171 -0.0457  0.3122  0.1833  0.2873 -0.1818  0.2618  0.2489  0.1772
