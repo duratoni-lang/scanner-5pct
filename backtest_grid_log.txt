@@ -1,0 +1,311 @@
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BK"}}}
+$BK: possibly delisted; no timezone found
+
+1 Failed download:
+['BK']: possibly delisted; no timezone found
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BK"}}}
+$BK: possibly delisted; no timezone found
+
+1 Failed download:
+['BK']: possibly delisted; no timezone found
+$BK: possibly delisted; no timezone found
+
+1 Failed download:
+['BK']: possibly delisted; no timezone found
+BK: No earnings dates found, symbol may be delisted
+BK: No earnings dates found, symbol may be delisted
+BK: No earnings dates found, symbol may be delisted
+$WBS: Data doesn't exist for startDate = 1662177600, endDate = 1769749200
+
+1 Failed download:
+['WBS']: Data doesn't exist for startDate = 1662177600, endDate = 1769749200
+$WBS: Data doesn't exist for startDate = 1662177600, endDate = 1769749200
+
+1 Failed download:
+['WBS']: Data doesn't exist for startDate = 1662177600, endDate = 1769749200
+$WBS: Data doesn't exist for startDate = 1662177600, endDate = 1769749200
+
+1 Failed download:
+['WBS']: Data doesn't exist for startDate = 1662177600, endDate = 1769749200
+$SNV: possibly delisted; no timezone found
+
+1 Failed download:
+['SNV']: possibly delisted; no timezone found
+$SNV: possibly delisted; no timezone found
+
+1 Failed download:
+['SNV']: possibly delisted; no timezone found
+$SNV: possibly delisted; no timezone found
+
+1 Failed download:
+['SNV']: possibly delisted; no timezone found
+$MASI: possibly delisted; no timezone found
+
+1 Failed download:
+['MASI']: possibly delisted; no timezone found
+$MASI: possibly delisted; no timezone found
+
+1 Failed download:
+['MASI']: possibly delisted; no timezone found
+$MASI: possibly delisted; no timezone found
+
+1 Failed download:
+['MASI']: possibly delisted; no timezone found
+== Grandes: descargando 80 valores
+  sin datos: BK
+  SNX: 50 fechas de resultados
+  GBX: 50 fechas de resultados
+  APOG: 50 fechas de resultados
+  LNN: 50 fechas de resultados
+  NKE: 50 fechas de resultados
+  MSM: 50 fechas de resultados
+  IONS: 50 fechas de resultados
+  MLI: 50 fechas de resultados
+  PSMT: 50 fechas de resultados
+  AZZ: 49 fechas de resultados
+  LEVI: 30 fechas de resultados
+  DAL: 50 fechas de resultados
+  JPM: 50 fechas de resultados
+  FAST: 50 fechas de resultados
+  C: 50 fechas de resultados
+  BAC: 50 fechas de resultados
+  WFC: 50 fechas de resultados
+  EPAC: 50 fechas de resultados
+  GS: 50 fechas de resultados
+  WDFC: 50 fechas de resultados
+  CTAS: 50 fechas de resultados
+  JNJ: 50 fechas de resultados
+  STT: 50 fechas de resultados
+  MTB: 50 fechas de resultados
+  USB: 50 fechas de resultados
+  GE: 50 fechas de resultados
+  SCHW: 50 fechas de resultados
+  GEV: 11 fechas de resultados
+  KO: 50 fechas de resultados
+  UNP: 50 fechas de resultados
+  RTX: 50 fechas de resultados
+  V: 50 fechas de resultados
+  HON: 50 fechas de resultados
+  MIDD: 50 fechas de resultados
+  PENG: 38 fechas de resultados
+  PGR: 50 fechas de resultados
+  BK: 0 fechas de resultados
+  TSM: 50 fechas de resultados
+  AAPL: 50 fechas de resultados
+  MSFT: 50 fechas de resultados
+  NVDA: 50 fechas de resultados
+  AVGO: 50 fechas de resultados
+  ORCL: 50 fechas de resultados
+  CRM: 50 fechas de resultados
+  ADBE: 50 fechas de resultados
+  AMD: 50 fechas de resultados
+  CSCO: 50 fechas de resultados
+  TXN: 50 fechas de resultados
+  AMZN: 50 fechas de resultados
+  GOOGL: 50 fechas de resultados
+  META: 50 fechas de resultados
+  NFLX: 50 fechas de resultados
+  UNH: 50 fechas de resultados
+  PFE: 50 fechas de resultados
+  MRK: 50 fechas de resultados
+  ABBV: 50 fechas de resultados
+  LLY: 50 fechas de resultados
+  TMO: 50 fechas de resultados
+  ABT: 50 fechas de resultados
+  PG: 50 fechas de resultados
+  PEP: 50 fechas de resultados
+  WMT: 50 fechas de resultados
+  COST: 50 fechas de resultados
+  MCD: 50 fechas de resultados
+  HD: 50 fechas de resultados
+  LOW: 50 fechas de resultados
+  TGT: 50 fechas de resultados
+  CAT: 50 fechas de resultados
+  DE: 50 fechas de resultados
+  LMT: 50 fechas de resultados
+  UPS: 50 fechas de resultados
+  FDX: 50 fechas de resultados
+  XOM: 50 fechas de resultados
+  CVX: 50 fechas de resultados
+  AXP: 50 fechas de resultados
+  MS: 50 fechas de resultados
+  BLK: 28 fechas de resultados
+  NEE: 50 fechas de resultados
+  DUK: 50 fechas de resultados
+  LIN: 50 fechas de resultados
+  7-14 d obj 4.0% rb contra +5%: n=155 esp_bruta=-0.176%
+  7-14 d obj 3.0% rb contra +5%: n=156 esp_bruta=-0.248%
+  7-14 d obj 3.0% rb objetivo real: n=73 esp_bruta=+0.134%
+  7-14 d obj 2.5% rb contra +5%: n=157 esp_bruta=-0.197%
+  7-14 d obj 2.5% rb objetivo real: n=27 esp_bruta=+0.332%
+  3-7 d obj 4.0% rb contra +5%: n=118 esp_bruta=+0.033%
+  3-7 d obj 3.0% rb contra +5%: n=119 esp_bruta=+0.036%
+  3-7 d obj 3.0% rb objetivo real: n=46 esp_bruta=-0.179%
+  3-7 d obj 2.5% rb contra +5%: n=119 esp_bruta=-0.015%
+  3-7 d obj 2.5% rb objetivo real: n=17 esp_bruta=+0.002%
+== Medianas: descargando 111 valores
+  sin datos: WBS
+  sin datos: SNV
+  sin datos: MASI
+  APOG: 50 fechas de resultados
+  AZZ: 49 fechas de resultados
+  LNN: 50 fechas de resultados
+  GBX: 50 fechas de resultados
+  MSM: 50 fechas de resultados
+  MLI: 50 fechas de resultados
+  EPAC: 50 fechas de resultados
+  AIT: 50 fechas de resultados
+  WSO: 50 fechas de resultados
+  SITE: 43 fechas de resultados
+  TTC: 50 fechas de resultados
+  RBC: 50 fechas de resultados
+  ITT: 50 fechas de resultados
+  FLS: 50 fechas de resultados
+  WWD: 50 fechas de resultados
+  CW: 50 fechas de resultados
+  HXL: 50 fechas de resultados
+  KNX: 50 fechas de resultados
+  JBHT: 49 fechas de resultados
+  LSTR: 50 fechas de resultados
+  SAIA: 50 fechas de resultados
+  CHRW: 50 fechas de resultados
+  EXPD: 50 fechas de resultados
+  MAN: 50 fechas de resultados
+  RHI: 50 fechas de resultados
+  KFY: 50 fechas de resultados
+  PSMT: 50 fechas de resultados
+  WDFC: 50 fechas de resultados
+  BJ: 34 fechas de resultados
+  CASY: 50 fechas de resultados
+  LEVI: 30 fechas de resultados
+  OLLI: 46 fechas de resultados
+  FIVE: 50 fechas de resultados
+  DKS: 50 fechas de resultados
+  ULTA: 50 fechas de resultados
+  WSM: 50 fechas de resultados
+  RH: 50 fechas de resultados
+  CROX: 50 fechas de resultados
+  DECK: 50 fechas de resultados
+  HAS: 50 fechas de resultados
+  MAT: 50 fechas de resultados
+  PII: 50 fechas de resultados
+  BC: 50 fechas de resultados
+  THO: 50 fechas de resultados
+  LCII: 50 fechas de resultados
+  POOL: 50 fechas de resultados
+  CAKE: 50 fechas de resultados
+  TXRH: 50 fechas de resultados
+  EAT: 50 fechas de resultados
+  WING: 46 fechas de resultados
+  SHAK: 48 fechas de resultados
+  MIDD: 50 fechas de resultados
+  PNFP: 50 fechas de resultados
+  WAL: 50 fechas de resultados
+  EWBC: 50 fechas de resultados
+  CFR: 50 fechas de resultados
+  ZION: 50 fechas de resultados
+  WBS: 1 fechas de resultados
+  SNV: 50 fechas de resultados
+  FHN: 50 fechas de resultados
+  BOKF: 50 fechas de resultados
+  CBSH: 50 fechas de resultados
+  PB: 50 fechas de resultados
+  IONS: 50 fechas de resultados
+  ENSG: 50 fechas de resultados
+  HQY: 50 fechas de resultados
+  OMCL: 50 fechas de resultados
+  MASI: 1 fechas de resultados
+  TECH: 50 fechas de resultados
+  ICUI: 50 fechas de resultados
+  EXEL: 50 fechas de resultados
+  HALO: 50 fechas de resultados
+  NBIX: 50 fechas de resultados
+  JAZZ: 50 fechas de resultados
+  SNX: 50 fechas de resultados
+  PENG: 38 fechas de resultados
+  LSCC: 50 fechas de resultados
+  CRUS: 50 fechas de resultados
+  SLAB: 50 fechas de resultados
+  POWI: 50 fechas de resultados
+  MKSI: 50 fechas de resultados
+  ONTO: 29 fechas de resultados
+  COHR: 50 fechas de resultados
+  FN: 50 fechas de resultados
+  NOVT: 50 fechas de resultados
+  MANH: 50 fechas de resultados
+  QLYS: 50 fechas de resultados
+  TENB: 34 fechas de resultados
+  DOCU: 35 fechas de resultados
+  BOX: 48 fechas de resultados
+  DT: 30 fechas de resultados
+  CVLT: 50 fechas de resultados
+  CGNX: 50 fechas de resultados
+  ZBRA: 50 fechas de resultados
+  TRMB: 50 fechas de resultados
+  OLED: 50 fechas de resultados
+  ENTG: 50 fechas de resultados
+  MTDR: 50 fechas de resultados
+  CHRD: 24 fechas de resultados
+  SM: 50 fechas de resultados
+  MUR: 50 fechas de resultados
+  RRC: 50 fechas de resultados
+  RPM: 50 fechas de resultados
+  AXTA: 48 fechas de resultados
+  OLN: 50 fechas de resultados
+  EXP: 50 fechas de resultados
+  CMC: 50 fechas de resultados
+  RS: 50 fechas de resultados
+  OGE: 50 fechas de resultados
+  IDA: 50 fechas de resultados
+  POR: 50 fechas de resultados
+  7-14 d obj 4.0% rb contra +5%: n=155 esp_bruta=-0.386%
+  7-14 d obj 3.0% rb contra +5%: n=159 esp_bruta=-0.303%
+  7-14 d obj 3.0% rb objetivo real: n=75 esp_bruta=-0.522%
+  7-14 d obj 2.5% rb contra +5%: n=162 esp_bruta=-0.256%
+  7-14 d obj 2.5% rb objetivo real: n=31 esp_bruta=-0.619%
+  3-7 d obj 4.0% rb contra +5%: n=128 esp_bruta=-0.166%
+  3-7 d obj 3.0% rb contra +5%: n=128 esp_bruta=-0.056%
+  3-7 d obj 3.0% rb objetivo real: n=48 esp_bruta=+0.535%
+  3-7 d obj 2.5% rb contra +5%: n=128 esp_bruta=-0.009%
+  3-7 d obj 2.5% rb objetivo real: n=12 esp_bruta=+1.284%
+    universo ventana  objetivo             rb          periodo  operaciones   acierto  esperanza_bruta  esperanza_neta  profit_factor  pct_objetivo  pct_stop  pct_tiempo  rent_media_tiempo  drawdown_suma
+0    Grandes  7-14 d     0.040     contra +5%   Diseño 2023-24           97  0.381443        -0.002713       -0.007713       0.787362      0.154639  0.463918    0.381443           0.006702      -0.794486
+1    Grandes  7-14 d     0.040     contra +5%  Validación 2025           58  0.465517        -0.000163       -0.005163       0.985311      0.189655  0.448276    0.362069           0.007478      -0.391342
+5    Grandes  7-14 d     0.030     contra +5%   Diseño 2023-24           98  0.408163        -0.002925       -0.007925       0.754355      0.234694  0.438776    0.326531           0.002237      -0.801658
+6    Grandes  7-14 d     0.030     contra +5%  Validación 2025           58  0.465517        -0.001721       -0.006721       0.845353      0.241379  0.448276    0.310345           0.005202      -0.424645
+10   Grandes  7-14 d     0.030  objetivo real   Diseño 2023-24           46  0.434783         0.000233       -0.004767       1.023997      0.260870  0.391304    0.347826           0.001476      -0.264173
+11   Grandes  7-14 d     0.030  objetivo real  Validación 2025           27  0.555556         0.003233       -0.001767       1.408975      0.259259  0.333333    0.407407           0.005400      -0.161943
+15   Grandes  7-14 d     0.025     contra +5%   Diseño 2023-24           98  0.428571        -0.002422       -0.007422       0.786081      0.306122  0.418367    0.275510           0.000241      -0.774361
+16   Grandes  7-14 d     0.025     contra +5%  Validación 2025           59  0.491525        -0.001231       -0.006231       0.886279      0.322034  0.440678    0.237288           0.004466      -0.372638
+20   Grandes  7-14 d     0.025  objetivo real   Diseño 2023-24           19  0.526316         0.003381       -0.001619       1.402119      0.421053  0.421053    0.157895           0.007182      -0.124753
+21   Grandes  7-14 d     0.025  objetivo real  Validación 2025            8  0.625000         0.003175       -0.001825       1.420488      0.250000  0.375000    0.375000           0.011938      -0.061133
+25   Grandes   3-7 d     0.040     contra +5%   Diseño 2023-24           76  0.526316         0.001508       -0.003492       1.205410      0.078947  0.263158    0.657895           0.006353      -0.292820
+26   Grandes   3-7 d     0.040     contra +5%  Validación 2025           42  0.452381        -0.001813       -0.006813       0.794817      0.071429  0.357143    0.571429           0.004339      -0.352680
+30   Grandes   3-7 d     0.030     contra +5%   Diseño 2023-24           77  0.532468         0.001009       -0.003991       1.139195      0.142857  0.259740    0.597403           0.003928      -0.301516
+31   Grandes   3-7 d     0.030     contra +5%  Validación 2025           42  0.476190        -0.000836       -0.005836       0.900589      0.166667  0.333333    0.500000           0.002102      -0.291447
+35   Grandes   3-7 d     0.030  objetivo real   Diseño 2023-24           32  0.406250        -0.002105       -0.007105       0.725505      0.062500  0.281250    0.656250           0.002931      -0.252352
+36   Grandes   3-7 d     0.030  objetivo real  Validación 2025           14  0.500000        -0.001063       -0.006063       0.876301      0.071429  0.357143    0.571429           0.006369      -0.118930
+40   Grandes   3-7 d     0.025     contra +5%   Diseño 2023-24           77  0.532468         0.000673       -0.004327       1.092893      0.220779  0.259740    0.519481           0.001694      -0.326431
+41   Grandes   3-7 d     0.025     contra +5%  Validación 2025           42  0.476190        -0.001670       -0.006670       0.801539      0.166667  0.333333    0.500000           0.002102      -0.316447
+45   Grandes   3-7 d     0.025  objetivo real   Diseño 2023-24           13  0.384615         0.000993       -0.004007       1.150243      0.230769  0.230769    0.538462           0.000798      -0.086672
+46   Grandes   3-7 d     0.025  objetivo real  Validación 2025            4  0.500000        -0.003125       -0.008125       0.662786      0.000000  0.500000    0.500000           0.012286      -0.032795
+50  Medianas  7-14 d     0.040     contra +5%   Diseño 2023-24          102  0.343137        -0.003462       -0.008462       0.749456      0.196078  0.568627    0.235294           0.005755      -0.871428
+51  Medianas  7-14 d     0.040     contra +5%  Validación 2025           53  0.358491        -0.004628       -0.009628       0.698263      0.207547  0.566038    0.226415           0.006684      -0.543523
+55  Medianas  7-14 d     0.030     contra +5%   Diseño 2023-24          105  0.380952        -0.003187       -0.008187       0.758558      0.285714  0.552381    0.161905           0.003168      -0.873754
+56  Medianas  7-14 d     0.030     contra +5%  Validación 2025           54  0.407407        -0.002738       -0.007738       0.808100      0.370370  0.537037    0.092593          -0.004740      -0.435163
+60  Medianas  7-14 d     0.030  objetivo real   Diseño 2023-24           50  0.360000        -0.002625       -0.007625       0.789722      0.300000  0.600000    0.100000           0.002919      -0.449356
+61  Medianas  7-14 d     0.030  objetivo real  Validación 2025           25  0.240000        -0.010396       -0.015396       0.375160      0.200000  0.760000    0.040000           0.006052      -0.355284
+65  Medianas  7-14 d     0.025     contra +5%   Diseño 2023-24          106  0.424528        -0.002623       -0.007623       0.790238      0.358491  0.528302    0.113208           0.000893      -0.837453
+66  Medianas  7-14 d     0.025     contra +5%  Validación 2025           56  0.446429        -0.002443       -0.007443       0.815119      0.410714  0.500000    0.089286          -0.004740      -0.395036
+70  Medianas  7-14 d     0.025  objetivo real   Diseño 2023-24           19  0.263158        -0.007114       -0.012114       0.484704      0.210526  0.684211    0.105263           0.002362      -0.290147
+71  Medianas  7-14 d     0.025  objetivo real  Validación 2025           12  0.333333        -0.004726       -0.009726       0.638126      0.333333  0.666667    0.000000                NaN      -0.136709
+75  Medianas   3-7 d     0.040     contra +5%   Diseño 2023-24           83  0.445783        -0.001946       -0.006946       0.802932      0.084337  0.361446    0.554217           0.005721      -0.671815
+76  Medianas   3-7 d     0.040     contra +5%  Validación 2025           45  0.444444        -0.001128       -0.006128       0.887171      0.133333  0.377778    0.488889           0.004647      -0.302831
+80  Medianas   3-7 d     0.030     contra +5%   Diseño 2023-24           83  0.481928        -0.000342       -0.005342       0.963974      0.204819  0.349398    0.445783           0.003673      -0.538033
+81  Medianas   3-7 d     0.030     contra +5%  Validación 2025           45  0.466667        -0.000953       -0.005953       0.900776      0.244444  0.355556    0.400000          -0.000033      -0.284939
+85  Medianas   3-7 d     0.030  objetivo real   Diseño 2023-24           30  0.600000         0.005784        0.000784       1.949052      0.266667  0.300000    0.433333           0.006691      -0.118835
+86  Medianas   3-7 d     0.030  objetivo real  Validación 2025           18  0.500000         0.004632       -0.000368       1.750795      0.277778  0.277778    0.444444           0.001978      -0.089712
+90  Medianas   3-7 d     0.025     contra +5%   Diseño 2023-24           83  0.506024         0.000189       -0.004811       1.020870      0.277108  0.325301    0.397590           0.002194      -0.539745
+91  Medianas   3-7 d     0.025     contra +5%  Validación 2025           45  0.488889        -0.000610       -0.005610       0.932283      0.288889  0.333333    0.377778          -0.000339      -0.293184
+95  Medianas   3-7 d     0.025  objetivo real   Diseño 2023-24            6  0.833333         0.020444        0.015444      51.122857      0.500000  0.000000    0.500000           0.009230      -0.007447
+96  Medianas   3-7 d     0.025  objetivo real  Validación 2025            6  0.666667         0.005240        0.000240       2.159779      0.166667  0.166667    0.666667           0.005503      -0.022140
