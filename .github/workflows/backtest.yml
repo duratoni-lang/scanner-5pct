@@ -6,6 +6,7 @@ on:
     paths:
       - backtest_v3.py
       - backtest_grid.py
+      - backtest_pre.py
       - watchlist.csv
       - watchlist_mid.csv
       - .github/workflows/backtest.yml
@@ -33,12 +34,12 @@ jobs:
       - name: Ejecutar backtest
         continue-on-error: true
         run: |
-          python backtest_grid.py 2>&1 | tee backtest_grid_log.txt
+          python backtest_pre.py 2>&1 | tee backtest_pre_log.txt
       - name: Guardar resultados en la rama
         if: always()
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add -f backtest_grid_log.txt backtest_grid_resultados.xlsx 2>/dev/null || git add -f backtest_grid_log.txt
+          git add -f backtest_pre_log.txt backtest_pre_resultados.xlsx 2>/dev/null || git add -f backtest_pre_log.txt
           git commit -m "Resultados backtest v3 [skip ci]" || echo "sin cambios"
           git push
