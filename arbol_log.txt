@@ -29,22 +29,71 @@ Descargando datos...
   resultados 800/903
   resultados 900/903
   con precios: 900, con resultados: 898
-Traceback (most recent call last):
-  File "/home/runner/work/scanner-5pct/scanner-5pct/arbol_decision.py", line 290, in <module>
-    main()
-  File "/home/runner/work/scanner-5pct/scanner-5pct/arbol_decision.py", line 267, in main
-    df = construir(precios, eventos, sectores)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/scanner-5pct/scanner-5pct/arbol_decision.py", line 133, in construir
-    p_last = idx.get_loc(antes[-1])
-                         ~~~~~^^^^
-  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 5401, in __getitem__
-    return getitem(key)
-           ^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/pandas/core/arrays/datetimelike.py", line 393, in __getitem__
-    result = cast(Union[Self, DTScalarOrNaT], super().__getitem__(key))
-                                              ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/pandas/core/arrays/_mixins.py", line 293, in __getitem__
-    result = self._ndarray[key]
-             ~~~~~~~~~~~~~^^^^^
-IndexError: index -1 is out of bounds for axis 0 with size 0
+  eventos en el dataset: 33033
+
+== ret_antes {'objetivo': 'ret_antes', 'eventos_entreno': 22490, 'eventos_prueba': 10543, 'media_entreno': np.float64(0.004068455771900129), 'media_prueba': np.float64(0.002731545164532485), 'acierto_base_prueba': np.float64(0.47130797685668213), 'auc_bosque_prueba': 0.5437216302611896}
+        variable  importancia_auc  desviacion
+             vix         0.022782    0.001950
+spx_sobre_sma200         0.008314    0.002416
+     dist_sma200         0.003613    0.001363
+      dist_max52         0.003086    0.001129
+          spx_r5         0.002954    0.001016
+ spx_sobre_sma50         0.002939    0.000735
+      reac_hist8         0.002486    0.000613
+           atr14         0.002408    0.000411
+             r10         0.002346    0.001543
+            rs60         0.001804    0.001257
+ sorpresa_media4         0.001646    0.000723
+              r5         0.001445    0.001566
+   quintil    n     media  acierto      neta
+ Q1 (peor) 2109  0.001319 0.450450 -0.003681
+        Q2 2108  0.000348 0.438330 -0.004652
+        Q3 2109 -0.000490 0.437648 -0.005490
+        Q4 2108  0.001935 0.467268 -0.003065
+Q5 (mejor) 2109  0.010544 0.562826  0.005544
+ hoja  n_entreno  media_entreno  acierto_entreno  n_prueba  media_prueba  acierto_prueba  neta_prueba
+   16        224       0.090172         0.857143        22      0.056540        0.909091     0.051540
+   17        293       0.030747         0.726962        18      0.042872        0.777778     0.037872
+   12       3305       0.017799         0.635098       522      0.022490        0.680077     0.017490
+   11       2596       0.005308         0.515023       324      0.021377        0.654321     0.016377
+   18        225       0.003403         0.506667        39     -0.033279        0.102564    -0.038279
+    7      13879       0.001873         0.471360      8512     -0.000701        0.436325    -0.005701
+    5        419      -0.008519         0.403341        66      0.037755        0.803030     0.032755
+    8        892      -0.011979         0.373318       682      0.005336        0.489736     0.000336
+    4        380      -0.033174         0.192105       343      0.024194        0.728863     0.019194
+   13        277      -0.036855         0.202166        15      0.063217        0.866667     0.058217
+
+== ret_atraviesa {'objetivo': 'ret_atraviesa', 'eventos_entreno': 22490, 'eventos_prueba': 10543, 'media_entreno': np.float64(0.008665121869353773), 'media_prueba': np.float64(0.006688181911844854), 'acierto_base_prueba': np.float64(0.49245945176894623), 'auc_bosque_prueba': 0.5216213204392193}
+        variable  importancia_auc  desviacion
+             vix         0.011697    0.001295
+        log_dvol         0.003827    0.000496
+spx_sobre_sma200         0.002495    0.000539
+      dist_max52         0.002306    0.001132
+           atr14         0.002002    0.000527
+        reac_ult         0.001211    0.000776
+       pre_hist8         0.001156    0.000470
+              r5         0.001093    0.000555
+           vol20         0.000998    0.000595
+   sector_Energy         0.000832    0.000186
+             r10         0.000805    0.000287
+    sorpresa_ult         0.000697    0.000350
+   quintil    n    media  acierto      neta
+ Q1 (peor) 2109 0.003922 0.488857 -0.001078
+        Q2 2108 0.002422 0.471537 -0.002578
+        Q3 2109 0.004504 0.475581 -0.000496
+        Q4 2108 0.006370 0.486717  0.001370
+Q5 (mejor) 2109 0.016221 0.539592  0.011221
+ hoja  n_entreno  media_entreno  acierto_entreno  n_prueba  media_prueba  acierto_prueba  neta_prueba
+   23        435       0.071331         0.758621        43      0.047616        0.790698     0.042616
+   18        301       0.055595         0.724252        26      0.041785        0.576923     0.036785
+    4        423       0.037224         0.673759        83      0.036199        0.614458     0.031199
+   20       3508       0.027817         0.627708       538      0.036770        0.652416     0.031770
+   24        311       0.020230         0.549839        36      0.006019        0.388889     0.001019
+    5        235       0.011064         0.570213        25      0.062435        0.760000     0.057435
+   13        438       0.007191         0.490868        27      0.019819        0.555556     0.014819
+    8      13146       0.004674         0.501141      8206      0.001298        0.466366    -0.003702
+   17       1920      -0.002102         0.465104       261      0.019915        0.555556     0.014915
+   12        668      -0.004349         0.428144       636      0.014151        0.488994     0.009151
+   21        277      -0.015676         0.357401        15      0.077270        0.733333     0.072270
+   11        590      -0.033545         0.262712       309      0.025067        0.624595     0.020067
+    7        238      -0.036215         0.323529       338      0.025219        0.609467     0.020219
