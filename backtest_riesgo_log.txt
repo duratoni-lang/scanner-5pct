@@ -1,0 +1,299 @@
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BK"}}}
+$BK: possibly delisted; no timezone found
+
+1 Failed download:
+['BK']: possibly delisted; no timezone found
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BK"}}}
+$BK: possibly delisted; no timezone found
+
+1 Failed download:
+['BK']: possibly delisted; no timezone found
+$BK: possibly delisted; no timezone found
+
+1 Failed download:
+['BK']: possibly delisted; no timezone found
+$WBS: Data doesn't exist for startDate = 1598932800, endDate = 1771131600
+
+1 Failed download:
+['WBS']: Data doesn't exist for startDate = 1598932800, endDate = 1771131600
+$WBS: Data doesn't exist for startDate = 1598932800, endDate = 1771131600
+
+1 Failed download:
+['WBS']: Data doesn't exist for startDate = 1598932800, endDate = 1771131600
+$WBS: Data doesn't exist for startDate = 1598932800, endDate = 1771131600
+
+1 Failed download:
+['WBS']: Data doesn't exist for startDate = 1598932800, endDate = 1771131600
+$SNV: possibly delisted; no timezone found
+
+1 Failed download:
+['SNV']: possibly delisted; no timezone found
+$SNV: possibly delisted; no timezone found
+
+1 Failed download:
+['SNV']: possibly delisted; no timezone found
+$SNV: possibly delisted; no timezone found
+
+1 Failed download:
+['SNV']: possibly delisted; no timezone found
+$MASI: possibly delisted; no timezone found
+
+1 Failed download:
+['MASI']: possibly delisted; no timezone found
+$MASI: possibly delisted; no timezone found
+
+1 Failed download:
+['MASI']: possibly delisted; no timezone found
+$MASI: possibly delisted; no timezone found
+
+1 Failed download:
+['MASI']: possibly delisted; no timezone found
+BK: No earnings dates found, symbol may be delisted
+BK: No earnings dates found, symbol may be delisted
+BK: No earnings dates found, symbol may be delisted
+Descargando 177 valores...
+  sin datos: BK
+  sin datos: WBS
+  sin datos: SNV
+  sin datos: MASI
+  SNX: 50 eventos
+  GBX: 50 eventos
+  APOG: 50 eventos
+  LNN: 50 eventos
+  NKE: 50 eventos
+  MSM: 50 eventos
+  IONS: 50 eventos
+  MLI: 50 eventos
+  PSMT: 50 eventos
+  AZZ: 49 eventos
+  LEVI: 30 eventos
+  DAL: 50 eventos
+  JPM: 50 eventos
+  FAST: 50 eventos
+  C: 50 eventos
+  BAC: 50 eventos
+  WFC: 50 eventos
+  EPAC: 50 eventos
+  GS: 50 eventos
+  WDFC: 50 eventos
+  CTAS: 50 eventos
+  JNJ: 50 eventos
+  STT: 50 eventos
+  MTB: 50 eventos
+  USB: 50 eventos
+  GE: 50 eventos
+  SCHW: 50 eventos
+  GEV: 11 eventos
+  KO: 50 eventos
+  UNP: 50 eventos
+  RTX: 50 eventos
+  V: 50 eventos
+  HON: 50 eventos
+  MIDD: 50 eventos
+  PENG: 38 eventos
+  PGR: 50 eventos
+  TSM: 50 eventos
+  AAPL: 50 eventos
+  MSFT: 50 eventos
+  NVDA: 50 eventos
+  AVGO: 50 eventos
+  ORCL: 50 eventos
+  CRM: 50 eventos
+  ADBE: 50 eventos
+  AMD: 50 eventos
+  CSCO: 50 eventos
+  TXN: 50 eventos
+  AMZN: 50 eventos
+  GOOGL: 50 eventos
+  META: 50 eventos
+  NFLX: 50 eventos
+  UNH: 50 eventos
+  PFE: 50 eventos
+  MRK: 50 eventos
+  ABBV: 50 eventos
+  LLY: 50 eventos
+  TMO: 50 eventos
+  ABT: 50 eventos
+  PG: 50 eventos
+  PEP: 50 eventos
+  WMT: 50 eventos
+  COST: 50 eventos
+  MCD: 50 eventos
+  HD: 50 eventos
+  LOW: 50 eventos
+  TGT: 50 eventos
+  CAT: 50 eventos
+  DE: 50 eventos
+  LMT: 50 eventos
+  UPS: 50 eventos
+  FDX: 50 eventos
+  XOM: 50 eventos
+  CVX: 50 eventos
+  AXP: 50 eventos
+  MS: 50 eventos
+  BLK: 28 eventos
+  NEE: 50 eventos
+  DUK: 50 eventos
+  LIN: 50 eventos
+  AIT: 50 eventos
+  WSO: 50 eventos
+  SITE: 43 eventos
+  TTC: 50 eventos
+  RBC: 50 eventos
+  ITT: 50 eventos
+  FLS: 50 eventos
+  WWD: 50 eventos
+  CW: 50 eventos
+  HXL: 50 eventos
+  KNX: 50 eventos
+  JBHT: 49 eventos
+  LSTR: 50 eventos
+  SAIA: 50 eventos
+  CHRW: 50 eventos
+  EXPD: 50 eventos
+  MAN: 50 eventos
+  RHI: 50 eventos
+  KFY: 50 eventos
+  BJ: 34 eventos
+  CASY: 50 eventos
+  OLLI: 46 eventos
+  FIVE: 50 eventos
+  DKS: 50 eventos
+  ULTA: 50 eventos
+  WSM: 50 eventos
+  RH: 50 eventos
+  CROX: 50 eventos
+  DECK: 50 eventos
+  HAS: 50 eventos
+  MAT: 50 eventos
+  PII: 50 eventos
+  BC: 50 eventos
+  THO: 50 eventos
+  LCII: 50 eventos
+  POOL: 50 eventos
+  CAKE: 50 eventos
+  TXRH: 50 eventos
+  EAT: 50 eventos
+  WING: 46 eventos
+  SHAK: 48 eventos
+  PNFP: 50 eventos
+  WAL: 50 eventos
+  EWBC: 50 eventos
+  CFR: 50 eventos
+  ZION: 50 eventos
+  WBS: 1 eventos
+  SNV: 50 eventos
+  FHN: 50 eventos
+  BOKF: 50 eventos
+  CBSH: 50 eventos
+  PB: 50 eventos
+  ENSG: 50 eventos
+  HQY: 50 eventos
+  OMCL: 50 eventos
+  MASI: 1 eventos
+  TECH: 50 eventos
+  ICUI: 50 eventos
+  EXEL: 50 eventos
+  HALO: 50 eventos
+  NBIX: 50 eventos
+  JAZZ: 50 eventos
+  LSCC: 50 eventos
+  CRUS: 50 eventos
+  SLAB: 50 eventos
+  POWI: 50 eventos
+  MKSI: 50 eventos
+  ONTO: 29 eventos
+  COHR: 50 eventos
+  FN: 50 eventos
+  NOVT: 50 eventos
+  MANH: 50 eventos
+  QLYS: 50 eventos
+  TENB: 34 eventos
+  DOCU: 35 eventos
+  BOX: 48 eventos
+  DT: 30 eventos
+  CVLT: 50 eventos
+  CGNX: 50 eventos
+  ZBRA: 50 eventos
+  TRMB: 50 eventos
+  OLED: 50 eventos
+  ENTG: 50 eventos
+  MTDR: 50 eventos
+  CHRD: 24 eventos
+  SM: 50 eventos
+  MUR: 50 eventos
+  RRC: 50 eventos
+  RPM: 50 eventos
+  AXTA: 48 eventos
+  OLN: 50 eventos
+  EXP: 50 eventos
+  CMC: 50 eventos
+  RS: 50 eventos
+  OGE: 50 eventos
+  IDA: 50 eventos
+  POR: 50 eventos
+  {'stop': 'técnico 1,5-3,3%', 'objetivo': 0.03, 'resultados': 'sale antes', 'filtros': 'base'}: n=210 esp=+0.076%
+  {'stop': 'técnico 1,5-3,3%', 'objetivo': 0.03, 'resultados': 'sale antes', 'filtros': 'SM'}: n=106 esp=+0.406%
+  {'stop': 'técnico 1,5-3,3%', 'objetivo': 0.03, 'resultados': 'atraviesa', 'filtros': 'base'}: n=197 esp=+0.217%
+  {'stop': 'técnico 1,5-3,3%', 'objetivo': 0.03, 'resultados': 'atraviesa', 'filtros': 'SM'}: n=104 esp=+0.202%
+  {'stop': 'técnico 1,5-3,3%', 'objetivo': 0.05, 'resultados': 'sale antes', 'filtros': 'base'}: n=209 esp=+0.028%
+  {'stop': 'técnico 1,5-3,3%', 'objetivo': 0.05, 'resultados': 'sale antes', 'filtros': 'SM'}: n=106 esp=+0.426%
+  {'stop': 'técnico 1,5-3,3%', 'objetivo': 0.05, 'resultados': 'atraviesa', 'filtros': 'base'}: n=192 esp=+0.296%
+  {'stop': 'técnico 1,5-3,3%', 'objetivo': 0.05, 'resultados': 'atraviesa', 'filtros': 'SM'}: n=103 esp=+0.306%
+  {'stop': 'fijo 5%', 'objetivo': 0.05, 'resultados': 'sale antes', 'filtros': 'base'}: n=387 esp=+0.046%
+  {'stop': 'fijo 5%', 'objetivo': 0.05, 'resultados': 'sale antes', 'filtros': 'SM'}: n=207 esp=+0.274%
+  {'stop': 'fijo 5%', 'objetivo': 0.05, 'resultados': 'atraviesa', 'filtros': 'base'}: n=314 esp=+0.168%
+  {'stop': 'fijo 5%', 'objetivo': 0.05, 'resultados': 'atraviesa', 'filtros': 'SM'}: n=178 esp=+0.787%
+  {'stop': 'fijo 8%', 'objetivo': 0.05, 'resultados': 'sale antes', 'filtros': 'base'}: n=386 esp=+0.085%
+  {'stop': 'fijo 8%', 'objetivo': 0.05, 'resultados': 'sale antes', 'filtros': 'SM'}: n=206 esp=+0.336%
+  {'stop': 'fijo 8%', 'objetivo': 0.05, 'resultados': 'atraviesa', 'filtros': 'base'}: n=306 esp=+0.505%
+  {'stop': 'fijo 8%', 'objetivo': 0.05, 'resultados': 'atraviesa', 'filtros': 'SM'}: n=172 esp=+0.934%
+                stop  objetivo  resultados filtros          periodo  operaciones   acierto  ganancia_media  perdida_media      peor  esperanza_bruta  esperanza_neta  rent_capital_media  profit_factor  pct_objetivo  pct_stop  pct_gap_stop
+0   técnico 1,5-3,3%      0.03  sale antes    base   Diseño 2023-24          139  0.517986        0.018187      -0.016995 -0.037644         0.001229       -0.003771           -0.003713       1.149983      0.194245  0.287770      0.014388
+1   técnico 1,5-3,3%      0.03  sale antes    base  Validación 2025           71  0.507042        0.017122      -0.017944 -0.031854        -0.000164       -0.005164           -0.005139       0.981487      0.211268  0.323944      0.042254
+2   técnico 1,5-3,3%      0.03  sale antes    base            Total          210  0.514286        0.017832      -0.017321 -0.037644         0.000758       -0.004242           -0.004195       1.090085      0.200000  0.300000      0.023810
+3   técnico 1,5-3,3%      0.03  sale antes      SM   Diseño 2023-24           67  0.582090        0.015822      -0.012501 -0.032742         0.003986       -0.001014           -0.000941       1.762926      0.164179  0.194030      0.000000
+4   técnico 1,5-3,3%      0.03  sale antes      SM  Validación 2025           39  0.538462        0.020858      -0.015253 -0.031854         0.004192       -0.000808           -0.000932       1.595430      0.333333  0.230769      0.051282
+5   técnico 1,5-3,3%      0.03  sale antes      SM            Total          106  0.566038        0.017585      -0.013578 -0.032742         0.004061       -0.000939           -0.000938       1.689297      0.226415  0.207547      0.018868
+6   técnico 1,5-3,3%      0.03   atraviesa    base   Diseño 2023-24          131  0.465649        0.038359      -0.027430 -0.111872         0.003205       -0.001795           -0.001731       1.218629      0.458015  0.526718      0.129771
+7   técnico 1,5-3,3%      0.03   atraviesa    base  Validación 2025           66  0.439394        0.039059      -0.030397 -0.120308         0.000122       -0.004878           -0.004906       1.007135      0.424242  0.530303      0.136364
+8   técnico 1,5-3,3%      0.03   atraviesa    base            Total          197  0.456853        0.038585      -0.028456 -0.120308         0.002172       -0.002828           -0.002794       1.140507      0.446701  0.527919      0.131980
+9   técnico 1,5-3,3%      0.03   atraviesa      SM   Diseño 2023-24           66  0.454545        0.035099      -0.028775 -0.111872         0.000259       -0.004741           -0.004601       1.016470      0.424242  0.530303      0.136364
+10  técnico 1,5-3,3%      0.03   atraviesa      SM  Validación 2025           38  0.500000        0.045077      -0.034922 -0.120308         0.005078        0.000078           -0.000202       1.290803      0.473684  0.500000      0.210526
+11  técnico 1,5-3,3%      0.03   atraviesa      SM            Total          104  0.471154        0.038968      -0.030899 -0.120308         0.002019       -0.002981           -0.002993       1.123579      0.442308  0.519231      0.163462
+12  técnico 1,5-3,3%      0.05  sale antes    base   Diseño 2023-24          138  0.500000        0.018177      -0.016665 -0.037644         0.000756       -0.004244           -0.004185       1.090783      0.043478  0.289855      0.014493
+13  técnico 1,5-3,3%      0.05  sale antes    base  Validación 2025           71  0.478873        0.018431      -0.018184 -0.031854        -0.000650       -0.005650           -0.005658       0.931367      0.084507  0.338028      0.042254
+14  técnico 1,5-3,3%      0.05  sale antes    base            Total          209  0.492823        0.018261      -0.017195 -0.037644         0.000279       -0.004721           -0.004685       1.031936      0.057416  0.306220      0.023923
+15  técnico 1,5-3,3%      0.05  sale antes      SM   Diseño 2023-24           67  0.582090        0.016610      -0.012501 -0.032742         0.004444       -0.000556           -0.000477       1.850715      0.044776  0.194030      0.000000
+16  técnico 1,5-3,3%      0.05  sale antes      SM  Validación 2025           39  0.512821        0.022899      -0.016010 -0.031854         0.003943       -0.001057           -0.001106       1.505572      0.128205  0.230769      0.051282
+17  técnico 1,5-3,3%      0.05  sale antes      SM            Total          106  0.556604        0.018742      -0.013919 -0.032742         0.004260       -0.000740           -0.000708       1.690234      0.075472  0.207547      0.018868
+18  técnico 1,5-3,3%      0.05   atraviesa    base   Diseño 2023-24          127  0.393701        0.057899      -0.027072 -0.111872         0.006381        0.001381            0.001424       1.388754      0.346457  0.590551      0.133858
+19  técnico 1,5-3,3%      0.05   atraviesa    base  Validación 2025           65  0.338462        0.051363      -0.031929 -0.136148        -0.003738       -0.008738           -0.008827       0.823025      0.261538  0.630769      0.184615
+20  técnico 1,5-3,3%      0.05   atraviesa    base            Total          192  0.375000        0.055902      -0.028813 -0.136148         0.002955       -0.002045           -0.002046       1.164108      0.317708  0.604167      0.151042
+21  técnico 1,5-3,3%      0.05   atraviesa      SM   Diseño 2023-24           66  0.393939        0.053862      -0.028622 -0.111872         0.003872       -0.001128           -0.001014       1.223200      0.318182  0.575758      0.151515
+22  técnico 1,5-3,3%      0.05   atraviesa      SM  Validación 2025           37  0.405405        0.058359      -0.037087 -0.136148         0.001607       -0.003393           -0.003830       1.072882      0.297297  0.594595      0.243243
+23  técnico 1,5-3,3%      0.05   atraviesa      SM            Total          103  0.398058        0.055507      -0.031626 -0.136148         0.003058       -0.001942           -0.002025       1.160650      0.310680  0.582524      0.184466
+24           fijo 5%      0.05  sale antes    base   Diseño 2023-24          260  0.503846        0.020418      -0.022114 -0.067183        -0.000684       -0.005684           -0.003411       0.937625      0.084615  0.092308      0.011538
+25           fijo 5%      0.05  sale antes    base  Validación 2025          127  0.551181        0.020828      -0.019359 -0.058801         0.002791       -0.002209           -0.001325       1.321237      0.102362  0.078740      0.015748
+26           fijo 5%      0.05  sale antes    base            Total          387  0.519380        0.020561      -0.021270 -0.067183         0.000456       -0.004544           -0.002726       1.044624      0.090439  0.087855      0.012920
+27           fijo 5%      0.05  sale antes      SM   Diseño 2023-24          129  0.511628        0.017032      -0.019628 -0.050276        -0.000872       -0.005872           -0.003523       0.909056      0.031008  0.085271      0.007752
+28           fijo 5%      0.05  sale antes      SM  Validación 2025           78  0.628205        0.025706      -0.020030 -0.057555         0.008702        0.003702            0.002221       2.168480      0.192308  0.064103      0.012821
+29           fijo 5%      0.05  sale antes      SM            Total          207  0.555556        0.020728      -0.019754 -0.057555         0.002736       -0.002264           -0.001359       1.311584      0.091787  0.077295      0.009662
+30           fijo 5%      0.05   atraviesa    base   Diseño 2023-24          214  0.551402        0.055380      -0.061551 -0.192499         0.002925       -0.002075           -0.001245       1.105949      0.439252  0.383178      0.177570
+31           fijo 5%      0.05   atraviesa    base  Validación 2025          100  0.510000        0.046259      -0.050162 -0.131583        -0.000987       -0.005987           -0.003592       0.959836      0.390000  0.370000      0.140000
+32           fijo 5%      0.05   atraviesa    base            Total          314  0.538217        0.052628      -0.057702 -0.192499         0.001679       -0.003321           -0.001992       1.063025      0.423567  0.378981      0.165605
+33           fijo 5%      0.05   atraviesa      SM   Diseño 2023-24          110  0.563636        0.053121      -0.049403 -0.145631         0.008383        0.003383            0.002030       1.388875      0.436364  0.327273      0.100000
+34           fijo 5%      0.05   atraviesa      SM  Validación 2025           68  0.558824        0.053730      -0.052071 -0.131583         0.007053        0.002053            0.001232       1.307004      0.455882  0.367647      0.102941
+35           fijo 5%      0.05   atraviesa      SM            Total          178  0.561798        0.053352      -0.050429 -0.145631         0.007875        0.002875            0.001725       1.356361      0.443820  0.342697      0.101124
+36           fijo 8%      0.05  sale antes    base   Diseño 2023-24          259  0.505792        0.020305      -0.021468 -0.104922        -0.000340       -0.005340           -0.002002       0.967986      0.084942  0.007722      0.003861
+37           fijo 8%      0.05  sale antes    base  Validación 2025          127  0.559055        0.020591      -0.018677 -0.086398         0.003276       -0.001724           -0.000647       1.397752      0.102362  0.023622      0.007874
+38           fijo 8%      0.05  sale antes    base            Total          386  0.523316        0.020405      -0.020619 -0.104922         0.000850       -0.004150           -0.001556       1.086468      0.090674  0.012953      0.005181
+39           fijo 8%      0.05  sale antes      SM   Diseño 2023-24          128  0.507812        0.016867      -0.018606 -0.090368        -0.000592       -0.005592           -0.002097       0.935329      0.031250  0.015625      0.007812
+40           fijo 8%      0.05  sale antes      SM  Validación 2025           78  0.641026        0.025272      -0.017734 -0.086398         0.009834        0.004834            0.001813       2.544741      0.192308  0.012821      0.012821
+41           fijo 8%      0.05  sale antes      SM            Total          206  0.558252        0.020521      -0.018337 -0.090368         0.003356       -0.001644           -0.000617       1.414237      0.092233  0.014563      0.009709
+42           fijo 8%      0.05   atraviesa    base   Diseño 2023-24          207  0.613527        0.054029      -0.070644 -0.174348         0.005846        0.000846            0.000317       1.214133      0.487923  0.227053      0.130435
+43           fijo 8%      0.05   atraviesa    base  Validación 2025           99  0.555556        0.050284      -0.055227 -0.131583         0.003391       -0.001609           -0.000604       1.138134      0.434343  0.202020      0.060606
+44           fijo 8%      0.05   atraviesa    base            Total          306  0.594771        0.052897      -0.065173 -0.174348         0.005052        0.000052            0.000019       1.191281      0.470588  0.218954      0.107843
+45           fijo 8%      0.05   atraviesa      SM   Diseño 2023-24          105  0.600000        0.053504      -0.057087 -0.145631         0.009267        0.004267            0.001600       1.405849      0.466667  0.180952      0.076190
+46           fijo 8%      0.05   atraviesa      SM  Validación 2025           67  0.597015        0.053553      -0.055889 -0.131583         0.009450        0.004450            0.001669       1.419578      0.462687  0.164179      0.059701
+47           fijo 8%      0.05   atraviesa      SM            Total          172  0.598837        0.053523      -0.056618 -0.145631         0.009339        0.004339            0.001627       1.411152      0.465116  0.174419      0.069767
