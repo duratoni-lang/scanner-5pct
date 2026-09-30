@@ -41,22 +41,40 @@ def yf_hist(tickers, periodo="9mo"):
         for _ in range(3):
             try:
                 df = yf.download(lote, period=periodo, auto_adjust=True, progress=False,
-                                 group_by="ticker", threads=True)
+                                 group_by="ticker", threads=len(lote) > 5)
                 break
             except Exception as e:
                 print(f"  error lote: {e}")
                 time.sleep(10)
         for t in lote:
+            sub = _extraer(df, t, len(lote))
+            if sub is not None:
+                out[t] = sub
+    # reintento individual y sin hilos para los que fallaron (bloqueos de caché de yfinance)
+    for t in [t for t in tickers if t not in out]:
+        for _ in range(3):
             try:
-                sub = df[t] if len(lote) > 1 else df
-                if isinstance(sub.columns, pd.MultiIndex):
-                    sub.columns = sub.columns.get_level_values(-1)
-                sub = sub[["Open", "High", "Low", "Close", "Volume"]].dropna()
-                if len(sub):
+                df = yf.download(t, period=periodo, auto_adjust=True, progress=False, threads=False)
+                sub = _extraer(df, t, 1)
+                if sub is not None:
                     out[t] = sub
+                    break
             except Exception:
                 pass
+            time.sleep(2)
     return out
+
+
+def _extraer(df, t, n):
+    try:
+        sub = df[t] if n > 1 else df
+        if isinstance(sub.columns, pd.MultiIndex):
+            sub.columns = sub.columns.get_level_values(-1) if "Close" in sub.columns.get_level_values(-1) \
+                else sub.columns.get_level_values(0)
+        sub = sub[["Open", "High", "Low", "Close", "Volume"]].dropna()
+        return sub if len(sub) else None
+    except Exception:
+        return None
 
 
 def universo():
