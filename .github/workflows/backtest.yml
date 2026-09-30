@@ -9,6 +9,7 @@ on:
       - backtest_pre.py
       - backtest_riesgo.py
       - arbol_decision.py
+      - vix_estrategia.py
       - watchlist.csv
       - watchlist_mid.csv
       - .github/workflows/backtest.yml
@@ -36,12 +37,12 @@ jobs:
       - name: Ejecutar backtest
         continue-on-error: true
         run: |
-          python arbol_decision.py 2>&1 | tee arbol_log.txt
+          python vix_estrategia.py 2>&1 | tee vix_log.txt
       - name: Guardar resultados en la rama
         if: always()
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add -f arbol_log.txt arbol_resultados.xlsx arbol_antes.png arbol_atraviesa.png eventos_dataset.csv.gz 2>/dev/null || git add -f arbol_log.txt
+          git add -f vix_log.txt vix_resultados.xlsx 2>/dev/null || git add -f vix_log.txt
           git commit -m "Resultados backtest v3 [skip ci]" || echo "sin cambios"
           git push
