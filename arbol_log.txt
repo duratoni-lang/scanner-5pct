@@ -1,0 +1,50 @@
+$FDXF: Data doesn't exist for startDate = 1420088400, endDate = 1771131600
+
+1 Failed download:
+['FDXF']: Data doesn't exist for startDate = 1420088400, endDate = 1771131600
+$HONA: Data doesn't exist for startDate = 1420088400, endDate = 1771131600
+
+1 Failed download:
+['HONA']: Data doesn't exist for startDate = 1420088400, endDate = 1771131600
+  universo: 903 valores
+Descargando datos...
+  precios 100/905
+  precios 200/905
+  precios 300/905
+  precios 400/905
+  precios 500/905
+  precios 600/905
+  precios 700/905
+  precios 800/905
+  precios 900/905
+  precios 905/905
+  resultados 0/903
+  resultados 100/903
+  resultados 200/903
+  resultados 300/903
+  resultados 400/903
+  resultados 500/903
+  resultados 600/903
+  resultados 700/903
+  resultados 800/903
+  resultados 900/903
+  con precios: 900, con resultados: 898
+Traceback (most recent call last):
+  File "/home/runner/work/scanner-5pct/scanner-5pct/arbol_decision.py", line 290, in <module>
+    main()
+  File "/home/runner/work/scanner-5pct/scanner-5pct/arbol_decision.py", line 267, in main
+    df = construir(precios, eventos, sectores)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/scanner-5pct/scanner-5pct/arbol_decision.py", line 133, in construir
+    p_last = idx.get_loc(antes[-1])
+                         ~~~~~^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 5401, in __getitem__
+    return getitem(key)
+           ^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/pandas/core/arrays/datetimelike.py", line 393, in __getitem__
+    result = cast(Union[Self, DTScalarOrNaT], super().__getitem__(key))
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/pandas/core/arrays/_mixins.py", line 293, in __getitem__
+    result = self._ndarray[key]
+             ~~~~~~~~~~~~~^^^^^
+IndexError: index -1 is out of bounds for axis 0 with size 0
