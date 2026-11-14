@@ -1,4 +1,4 @@
 fecha_senal,ticker,sector,evento,dist_sma50,sorpresas_4,cierre_senal,fecha_entrada,entrada,fecha_salida,salida,rentabilidad,estado,nota
-2026-11-05,AMAT,Information Technology,2026-11-12,-0.2871,4/4,319.25,2026-11-06,346.1600,,,,abierta,
-2026-11-05,CSCO,Information Technology,2026-11-12,-0.1233,4/4,95.72,2026-11-06,96.6300,,,,abierta,
+2026-11-05,AMAT,Information Technology,2026-11-12,-0.2871,4/4,319.25,2026-11-06,346.1600,2026-11-13,370.5000,0.0703,cerrada,
+2026-11-05,CSCO,Information Technology,2026-11-12,-0.1233,4/4,95.72,2026-11-06,96.6300,2026-11-13,95.6400,-0.0102,cerrada,
 2026-11-06,NVDA,Information Technology,2026-11-17,-0.1508,4/4,186.64,2026-11-09,173.0700,,,,abierta,
